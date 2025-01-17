@@ -1,0 +1,45 @@
+001. <a> </a> :- anchoir tag
+        this tag is used to define hyperlink
+    attriutes used in <a> </a> tag
+        01. href :- used to attach url link
+        02. target :- cammands where to open link
+            01. _self :- open in same tab
+            02. _blank :- open in new tab
+            03. _parent :- open in parent frame
+            04. _top :- open in full body of window
+        03. rel :- shows relation 
+            01. nofollow
+            02. noopener
+            03. noreferrer
+            04. nofollow noreferrer
+        04. type :- type of this link 
+            01. type = "image/jpg"
+            02. type = "video/mp4"
+            03. type = "audio/mp3"
+            04. type = "application/pdf"
+        05. download :- download the file
+        06. hrefiang :- specifies the link language
+        07. ping :- simply open more than one link
+            01. :- -t
+            02. :- -c 
+            03. :- -i
+        08. name :- name the website, we can use the id attribute instead
+        09. id :- give tags asepecific name
+        10. class :- gives specific class name
+        11. style :- gives css styles to tag
+        12. accesskey :- gives specific key to access website without clicking it,simply make keyboard shortcut key
+        13. tabindex :- give page an index that who will apear on _top
+        14. aria :- used for accessibility purposes
+            01. :- aria-label
+            02. :- aria-labrlledby
+            03. :- aria-current
+            04. :- aria-hidden
+            05. :- role
+            06. :- aria-describedby
+            07. :- aria-expanded
+        15. onclick :- execute script when clicked
+        16. onmouseover :- execute when mouse is on the link
+        17. onmouseout :- execute when mouse is out
+        18. onfocus :- execute when link is on focus
+
+002. <abbr> </abbr> :- 
